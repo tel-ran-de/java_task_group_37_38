@@ -26,17 +26,17 @@ public class CastingObjects {
     public static void main(String[] args) {
         Animal[] animals = {new Animal(), new Cat(), new Dog(), new Dog(), new Dog()};
 
-        for (Animal animal: animals) {
+        for (Animal animal : animals) {
             animal.voice();
 
-            if(animal instanceof Cat) {
+            if (animal instanceof Cat) {
                 Cat cat = (Cat) animal;
                 cat.catchMouse();
             }
         }
 
         Cat[] cats = {new Cat(), new Cat()};
-        for (Cat cat: cats) {
+        for (Cat cat : cats) {
             cat.catchMouse();
         }
     }
