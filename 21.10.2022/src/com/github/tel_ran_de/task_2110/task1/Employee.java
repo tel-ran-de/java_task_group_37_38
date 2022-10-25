@@ -120,7 +120,7 @@ class Contractor extends Employee {
         System.out.println(conMSidorov);
         System.out.println("Сумма налогов: " + taxesVirr);
 
-        Employee[] employees = {(ResidentEmployee) resAIvanov, (NoResidentEmployee) noResIVassiljev, (Contractor) conMSidorov, (ResidentEmployee)  resII};
+        Employee[] employees = { resAIvanov, noResIVassiljev, conMSidorov, resII};
         //Employee[] employees = {(Employee) resAIvanov, (Employee) noResIVassiljev, (Employee) conMSidorov, (Employee)  resII};
         //Employee[] employees = {new ResidentEmployee("Vladimir", "Solnyshko"), new Contractor("Ilja", "Muromets")};
         for (Employee employee : employees) {
